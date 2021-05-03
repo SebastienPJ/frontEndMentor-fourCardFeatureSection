@@ -1,0 +1,157 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%)
+
+}
+
+h1 {
+    color: hsl(234, 12%, 34%);
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+    color:hsl(229, 6%, 66%);
+    margin: 10px 0;
+}
+h3 {
+    font-weight: 700;
+    color: hsl(234, 12%, 34%);
+}
+
+p {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.header-section {
+    text-align: center;
+    width: 50%;
+    max-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+    border: black 2px solid;
+}
+
+
+.page-heading {
+    font-weight: 600;
+}
+
+.card {
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 1rem;
+    margin: 1rem 1rem 1.5rem;
+    width: 300px;
+    height: 200px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.card p, h3 {
+    text-align: left;
+
+}
+
+.column {
+    display: inline-block;
+    border: black 1px solid;
+    width: 377px;
+}
+
+.elevate {
+    position: relative;
+    bottom: 139px;
+
+}
+
+.supervisor {
+    border-top:  hsl(180, 62%, 55%) 5px solid;    
+}
+
+.team-builder {
+    border-top:  hsl(0, 78%, 62%) 5px solid;
+}
+
+
+.karma {
+    border-top:  hsl(34, 97%, 64%) 5px solid;
+}
+
+.calculator {
+    border-top:   hsl(212, 86%, 64%) 5px solid;
+}
+
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    position: relative;
+}
+
+
+
+@media (max-width: 1100px) {
+    .card {
+
+    }
+
+    .column {
+        display: block;
+        margin: auto;
+        position: static;
+    }
+
+    .header-section {
+        min-width: 345px;
+
+    }
+
+    h1,
+    h2 {
+        font-size: 1.5rem;
+
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: .8rem;
+        padding-right: 1rem;
+
+    }
+}
+
+@media (min-width: 1020px) {
+    .column {
+        width: 330px;
+    }
+
+    .card {
+        margin: 1rem auto;
+        width: 250px;
+        padding: 2rem;
+    }
+
+    .supervisor {
+
+    }
+}
+
+
+@media (min-width: 1100px) {
+    .column {
+        width: 350px;
+    }
+}
