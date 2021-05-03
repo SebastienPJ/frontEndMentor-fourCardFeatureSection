@@ -29,7 +29,7 @@ p {
 
 .header-section {
     text-align: center;
-    width: 377px;
+    /* width: 377px; */
     max-width: 30rem;
     margin: auto;
     padding: 1rem;
@@ -48,8 +48,8 @@ p {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     padding: 1rem;
     margin: 1rem auto 1.5rem;
-    width: 300px;
-    height: 200px;
+    /* width: 300px;
+    height: 200px; */
     background-color: hsl(0, 0%, 98%);
 }
 
@@ -61,7 +61,7 @@ p {
 .column {
     display: inline-block;
     border: black 1px solid;
-    width: 377px;
+    /* width: 377px; */
 }
 
 .elevate {
@@ -108,7 +108,7 @@ p {
 
     .card {
         margin: 1rem 1rem 1.5rem;
-        width: 250px;
+        /* width: 250px; */
         height: auto;
     }
 
@@ -117,6 +117,10 @@ p {
 
 
 @media (max-width: 1000px) {
+
+    body {
+        width: 100vw;
+    }
     .column {
         display: block;
         margin: auto;
